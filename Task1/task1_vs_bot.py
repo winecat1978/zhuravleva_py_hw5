@@ -53,6 +53,7 @@ def Play(res):
         step2 = all_in_all
         all_in_all-=step2
         bot+=step2
+        print(f'\nБот выбрал {step2}')
         first = True
 
     if all_in_all == 0:
